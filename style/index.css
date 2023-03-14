@@ -14,7 +14,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  color: var(--gray-bg-headings-btns);
+  font-family: "League Spartan";
 }
 img,
 picture,
@@ -55,4 +55,81 @@ h6 {
   --gray-magenta: hsl(303, 10%, 53%);
   --lg-gray-magenta: hsl(300, 24%, 96%);
   --white: hsl(0, 0%, 100%);
+}
+/* ======== sections ======== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+/* ======== OUR section ======== */
+.section__our {
+  margin: 1rem 0;
+}
+.section__our h2 {
+  color: var(--magenta);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 0.8;
+  margin: 1.5rem 0;
+}
+.section__our p {
+  color: var(--gray-magenta);
+  font-weight: 500;
+}
+/* ======== RATED section ======== */
+.section__rated {
+  margin: 1rem 0;
+}
+.section__rated--card {
+  background-color: var(--lg-gray-magenta);
+  border-radius: 8px;
+  margin: 1rem 0;
+  height: 4rem;
+  color: var(--magenta);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.section__rated--starsbg {
+  background-image: url("/images/icon-star.svg");
+  margin: 0.5rem auto;
+  background-repeat: space;
+  background-size: contain;
+  height: 1rem;
+  width: 6rem;
+}
+/* ======== PROOF section ======== */
+.section__proof {
+  margin: 1rem 0;
+  text-align: left;
+}
+.item-general {
+  margin: 1rem 0;
+}
+.section__proof--card {
+  background-color: var(--magenta);
+  color: var(--white);
+  border-radius: 8px;
+}
+.card-item {
+  padding: 1rem 2rem;
+}
+.section__proof--card-user {
+  display: flex;
+}
+.section__proof--card-user img {
+  border-radius: 50%;
+  height: 3rem;
+}
+.section__proof--card-user div {
+  margin-left: 1rem;
+}
+.section__proof--card-user div p {
+  color: var(--pink);
 }
