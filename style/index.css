@@ -97,7 +97,7 @@ main {
   justify-content: center;
 }
 .section__rated--starsbg {
-  background-image: url("/images/icon-star.svg");
+  background-image: url("icon-star.svg");
   margin: 0.5rem auto;
   background-repeat: space;
   background-size: contain;
