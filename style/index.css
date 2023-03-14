@@ -1,4 +1,4 @@
-/* reset css */
+/* ======== reset css ======== */
 *,
 *::before,
 *::after {
@@ -42,4 +42,17 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+/* ======== custom properties ======== */
+:root {
+  /* ### Primary */
+
+  --magenta: hsl(300, 43%, 22%);
+  --pink: hsl(333, 80%, 67%);
+
+  /* ### Neutral */
+
+  --gray-magenta: hsl(303, 10%, 53%);
+  --lg-gray-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
 }
